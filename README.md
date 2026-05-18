@@ -18,17 +18,22 @@ This project introduces an LLM-based chatbot that provides real-time, personaliz
 💬 Chat & video consultation interface
 🧠 Technologies Used
 💻 Software
+
+
 Python
 Flask
 HTML, CSS, JavaScript
 Machine Learning (Scikit-learn)
 NLP (Natural Language Processing)
 OCR (Tesseract)
+
 ⚙️ Hardware Requirements
 Processor: x64
 RAM: 8GB or higher
 Storage: 128GB+
 Stable Internet Connection
+
+
 🧩 Modules
 1️⃣ Data Collection
 Symptom-disease datasets
@@ -45,6 +50,8 @@ Dosage & side effects explanation
 4️⃣ Location-Based Services
 Google Maps API integration
 Nearby hospitals & pharmacies
+
+
 🖥️ System Interface
 🏠 Home Page
 🧮 Risk Calculator
@@ -53,17 +60,20 @@ Nearby hospitals & pharmacies
 🔍 Disease Finder
 📹 Video Call & Chat
 📷 Medicine Scanner
+
 🎯 Objectives
 Provide personalized healthcare education
 Improve patient awareness
 Enable early disease prediction
 Simplify prescription understanding
 Enhance healthcare accessibility
+
 📈 Expected Outcomes
 Accurate medical guidance
 Improved patient decision-making
 Reduced dependency on immediate consultations
 Better understanding of prescriptions
+
 ⚠️ Disclaimer
 
 This system is intended for educational and assistance purposes only and should not replace professional medical advice.
