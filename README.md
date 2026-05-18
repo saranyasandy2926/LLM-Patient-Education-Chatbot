@@ -1,100 +1,192 @@
-# LLM-Patient-Education-Chatbot
-🏥 LLM-Based Chatbot for Personalized Patient Education
-📌 Project Title
-Assessing the Effectiveness of LLM-Based Chatbot for Personalized Patient Education
-📖 Overview
+🏥 Health Assist AI – LLM-Based Medical Chatbot
 
-Limited access to accurate and personalized patient education often leads to misunderstandings about symptoms, treatments, and medications.
+An AI-powered healthcare assistant designed to provide personalized patient education, disease prediction, prescription analysis, and real-time healthcare support using Large Language Models (LLMs), Machine Learning, Natural Language Processing (NLP), and Optical Character Recognition (OCR).
 
-This project introduces an LLM-based chatbot that provides real-time, personalized healthcare guidance, helping users better understand their medical conditions.
+📌 Project Overview
 
+Health Assist AI is a smart healthcare platform that helps users:
 
-🚀 Features
-🤖 AI-powered chatbot for patient interaction
-🧠 Disease prediction using ML models
-💊 Prescription analysis using OCR
-📍 Location-based hospital & pharmacy finder
-📊 Risk calculator for health assessment
-💬 Chat & video consultation interface
-🧠 Technologies Used
-💻 Software
+Predict possible diseases based on symptoms
+Analyze medical prescriptions using OCR
+Chat with an intelligent AI healthcare assistant
+Find nearby hospitals and pharmacies
+Book doctor appointments
+Connect with healthcare providers through chat/video consultation
 
+The system is designed to improve healthcare accessibility, especially for users in remote areas.
 
-Python
-Flask
-HTML, CSS, JavaScript
-Machine Learning (Scikit-learn)
-NLP (Natural Language Processing)
-OCR (Tesseract)
-
-⚙️ Hardware Requirements
-Processor: x64
-RAM: 8GB or higher
-Storage: 128GB+
-Stable Internet Connection
-
-
-🧩 Modules
-1️⃣ Data Collection
-Symptom-disease datasets
-Medical Q&A datasets
-Prescription image data
-2️⃣ Disease Prediction
+✨ Features
+🤖 AI Medical Chatbot
+Intelligent chatbot powered by NLP and LLM concepts
+Provides real-time medical guidance
+Personalized healthcare responses
+🩺 Disease Prediction
+Predicts diseases based on symptoms
+Uses Machine Learning models:
 Random Forest
 Support Vector Machine (SVM)
-Naïve Bayes
-3️⃣ Prescription Analysis
-OCR using Tesseract
-Medicine extraction
-Dosage & side effects explanation
-4️⃣ Location-Based Services
-Google Maps API integration
-Nearby hospitals & pharmacies
+📄 Prescription Analysis
+Upload prescriptions as images
+OCR extracts:
+Medicine names
+Dosage instructions
+Side effects
+📍 Nearby Healthcare Services
+Locate:
+Hospitals
+Clinics
+Pharmacies
+Integrated with Google Maps API
+📞 Doctor Consultation
+WhatsApp consultation
+Video call support
+Appointment booking system
+👤 Patient Profile Management
+Store:
+Medical history
+Symptoms
+Lifestyle details
+Insurance information
+⭐ Feedback System
+User feedback and bug reporting
+Star rating support
+🛠️ Technologies Used
+Frontend
+HTML
+CSS
+JavaScript
+React.js
+Vite
+Backend
+Flask
+PHP
+Machine Learning & NLP
+TensorFlow
+Keras
+Scikit-learn
+NLTK
+spaCy
+OCR & Image Processing
+OpenCV
+Tesseract OCR
+Database
+PostgreSQL
+SQL Database
+APIs
+Google Maps API
+WebRTC / Zoom API
 
+🧠 Machine Learning Models
 
-🖥️ System Interface
-🏠 Home Page
-🧮 Risk Calculator
-💊 Pharmacy Page
-📅 Appointment Booking
-🔍 Disease Finder
-📹 Video Call & Chat
-📷 Medicine Scanner
+The system mainly uses Random Forest for disease prediction.
 
-🎯 Objectives
-Provide personalized healthcare education
-Improve patient awareness
-Enable early disease prediction
-Simplify prescription understanding
-Enhance healthcare accessibility
+Why Random Forest?
+High prediction accuracy
+Handles complex medical datasets
+Reduces overfitting
+Provides confidence scores
+Achievements
+~92% training accuracy
+Real-time symptom analysis
+Top probable disease prediction
 
-📈 Expected Outcomes
-Accurate medical guidance
-Improved patient decision-making
-Reduced dependency on immediate consultations
-Better understanding of prescriptions
+🏗️ System Architecture
 
-⚠️ Disclaimer
+The system integrates:
 
-This system is intended for educational and assistance purposes only and should not replace professional medical advice.
+User Interface
+NLP-based Chatbot
+Disease Prediction Module
+OCR Prescription Module
+Database
+Healthcare APIs
 
-📚 References
-Galitsky, B. A. (2024). LLM-based personalized recommendations in healthcare systems
-https://doi.org/10.1016/j.artmed.2024.102876
-Hao, Y., et al. (2024). Expert-in-the-loop LLM chatbot for patient education systems
-https://arxiv.org/abs/2409.19100
-🏁 Conclusion
+This creates a complete digital healthcare ecosystem.
 
-This project successfully demonstrates how LLM, Machine Learning, and OCR can be integrated to build an intelligent healthcare assistant.
+📂 Project Modules
+├── frontend/
+│   ├── index.html
+│   ├── login.html
+│   ├── appointment.html
+│   ├── feedback.html
+│   ├── profile.html
+│   └── styles.css
+│
+├── backend/
+│   ├── connect.php
+│   ├── register.php
+│   ├── feedback_handler.php
+│   ├── save_profile.php
+│   └── store_appointment.php
+│
+├── ml_models/
+│   ├── disease_prediction_model.pkl
+│   ├── symptom_dataset.csv
+│   └── training_notebook.ipynb
+│
+├── ocr/
+│   └── prescription_scanner.py
+│
+├── pharmacy/
+│   └── pharmacy.js
+│
+└── README.md
+⚙️ Installation
+1️⃣ Clone Repository
+git clone https://github.com/your-username/health-assist-ai.git
+cd health-assist-ai
+2️⃣ Install Python Dependencies
+pip install -r requirements.txt
+3️⃣ Run Flask Backend
+python app.py
+4️⃣ Start Frontend
 
-It enhances patient education, accessibility, and awareness, making healthcare support more efficient and user-friendly.
+If using Vite + React:
 
-⭐ Future Enhancements
-Voice-based interaction
-Multi-language support
-Integration with wearable devices
-Real-time doctor consultation
-📬 Contact
+npm install
+npm run dev
+💻 System Requirements
+Hardware
+Intel Core i5 or higher
+8GB RAM
+50GB Storage
+Software
+Python 3.x
+Windows / Linux / macOS
+VS Code / Jupyter Notebook
 
-For queries or collaboration, feel free to reach out!
+🔒 Security Features
+User authentication
+Secure data handling
+Protected medical records
+Input validation
+Secure database storage
+
+🧪 Testing
+
+The system was tested using:
+
+Unit Testing
+Disease prediction accuracy
+OCR extraction validation
+API response validation
+Integration Testing
+Frontend ↔ Backend communication
+OCR ↔ NLP ↔ ML workflow
+Functional Testing
+Symptom prediction
+Prescription upload
+Chatbot responses
+Appointment booking
+
+📈 Future Enhancements
+Multi-language chatbot support
+Voice assistant integration
+Deep learning disease diagnosis
+Cloud deployment
+Electronic Health Record (EHR) integration
+Mobile application support
+📜 License
+
+This project is developed for academic and educational purposes.
 
