@@ -57,6 +57,7 @@ CSS
 JavaScript
 React.js
 Vite
+
 Backend
 Flask
 PHP
@@ -69,9 +70,11 @@ spaCy
 OCR & Image Processing
 OpenCV
 Tesseract OCR
+
 Database
 PostgreSQL
 SQL Database
+
 APIs
 Google Maps API
 WebRTC / Zoom API
@@ -81,8 +84,11 @@ WebRTC / Zoom API
 The system mainly uses Random Forest for disease prediction.
 
 Why Random Forest?
+
 High prediction accuracy
+
 Handles complex medical datasets
+
 Reduces overfitting
 Provides confidence scores
 Achievements
