@@ -8,6 +8,7 @@ Limited access to accurate and personalized patient education often leads to mis
 
 This project introduces an LLM-based chatbot that provides real-time, personalized healthcare guidance, helping users better understand their medical conditions.
 
+
 🚀 Features
 🤖 AI-powered chatbot for patient interaction
 🧠 Disease prediction using ML models
